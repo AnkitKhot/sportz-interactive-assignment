@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background: linear-gradient(274deg, rgba(9,121,108,1) 0%, rgb(237 246 243) 35%, rgba(0,255,193,1) 100%);
+}
+h1{
+    text-align: center;
+    font-family: math;
+    color: #085a2d;
+    margin-top: 0;
+    padding-top: 1rem;
+}
+.searchInput{
+  width: 90%;
+    margin: auto;
+    display: block;
+    height: 40px;
+    border-radius: 40px;
+    padding-left: 5px;
+    border: solid 1px #476f78;
+    color: #1c1c1c;
+    background: #f1f1f1;
+}
+.buttonWrapper{
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+}
+button{
+  border-radius: 30px;
+  border: solid 1px #538021;
+  background: #2fcd9a;
+  color: #fff;
+  padding: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+button:hover{
+  background: #2a9774;
+}
+
+.cardWrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  grid-area: cards;
+}
+.playerCard{
+  border: solid 1px #c9afaf;
+  overflow: hidden;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.playerImg{
+  width: 100%;
+}
